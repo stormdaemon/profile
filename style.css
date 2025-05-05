@@ -9,6 +9,12 @@ body {
   font-family: poppins;
 }
 
+.typed-cursor {
+  display: inline;
+  font-size: inherit;
+  vertical-align: baseline;
+}
+
 ul {
   margin-right: 50px;
 }

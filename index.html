@@ -18,7 +18,9 @@
 <body>
   <div class="containter">
     <div class="card-1">
-      <h1>Hello I'm Théo Lafont</h1>
+      <div class="title">
+      <h1><span id="typed"></span></h1>
+      </div>
       <img src="https://avatars.githubusercontent.com/u/124437318?v=4" class="profile-pic">
       <h2>Developper Full-Stack</h2>
       <p>I love Back-End, logic is my life. I'm so powerfull to create statisfying solutions.</p>
@@ -118,6 +120,16 @@
       </ul>
     </div>
   </div>
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed('#typed', {
+      strings: ["Hello I'm Théo Lafont"],
+      typeSpeed: 80,
+      backSpeed: 50,
+      loop: true
+    });
+  </script>
+
 </body>
 
 </html>
