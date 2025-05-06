@@ -90,30 +90,6 @@ li {
   margin-left: 2rem;
 }
 
-.fa-html5:hover {
-  color: orangered;
-}
-
-.fa-css3-alt:hover {
-  color: blue;
-}
-
-.fa-square-js:hover {
-  color: #f7df1e;
-}
-
-.fa-php:hover {
-  color: lightblue;
-}
-
-.fa-laravel:hover {
-  color: orange;
-}
-
-.fa-node-js:hover {
-  color: #68A063;
-}
-
 .stack-icons {
   text-align: center;
 }
@@ -140,4 +116,77 @@ svg:hover {
   .stack-icons i {
     margin-top: 1rem;
   }
+}
+
+/* From Uiverse.io by PriyanshuGupta28 */
+ul {
+  list-style: none;
+}
+
+.new-stack-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.new-stack-icons .icon-content {
+  margin: 0 10px;
+  position: relative;
+}
+.new-stack-icons .icon-content .tooltip {
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #000;
+  color: #fff;
+  padding: 6px 10px;
+  border-radius: 5px;
+  opacity: 0;
+  visibility: hidden;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+.new-stack-icons .icon-content:hover .tooltip {
+  opacity: 1;
+  visibility: visible;
+  top: -50px;
+}
+.new-stack-icons .icon-content .link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  color: #4d4d4d;
+  background-color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+.new-stack-icons .icon-content .link:hover {
+  box-shadow: 3px 2px 45px 0px rgb(0 0 0 / 12%);
+}
+.new-stack-icons .icon-content .link svg {
+  width: 30px;
+  height: 30px;
+}
+.new-stack-icons .icon-content .link[data-social="HTML5"]:hover {
+  fill: orangered;
+}
+.new-stack-icons .icon-content .link[data-social="javaScript"]:hover {
+  fill: yellow;
+}
+.new-stack-icons .icon-content .link[data-social="PHP"]:hover {
+  fill: lightblue;
+}
+.new-stack-icons .icon-content .link[data-social="Laravel"]:hover {
+  fill: #f55247;
+}
+.new-stack-icons .icon-content .link[data-social="NodeJS"]:hover {
+  fill: #6cc24a;
+}
+.new-stack-icons .icon-content .link[data-social="Ruby"]:hover {
+  fill: red;
+}
+.new-stack-icons .icon-content .link[data-social="Rails"]:hover {
+  fill: red;
 }
